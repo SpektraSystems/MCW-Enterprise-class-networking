@@ -26,51 +26,50 @@ Microsoft and the trademarks listed at https:<span></span>//w<span></span>ww.<sp
 
 <!-- TOC -->
 
-- [Enterprise-class networking in Azure hands-on lab step-by-step](#enterprise-class-networking-in-azure-hands-on-lab-step-by-step)
-  - [Abstract and learning objectives](#abstract-and-learning-objectives)
-  - [Overview](#overview)
-  - [Solution architecture](#solution-architecture)
-  - [Requirements](#requirements)
-  - [Help references](#help-references)
-  - [Exercise 1: Create a Virtual Network and provision subnets](#exercise-1-create-a-virtual-network-and-provision-subnets)
-    - [Task 1: Create a Virtual Network](#task-1-create-a-virtual-network)
-    - [Task 2: Configure subnets](#task-2-configure-subnets)
-  - [Exercise 2: Create a Network Monitoring Solution](#exercise-2-create-a-network-monitoring-solution)
-    - [Task 1: Create a Log Analytics Workspace](#task-1-create-a-log-analytics-workspace)
-    - [Task 2: Configure Network Watcher](#task-2-configure-network-watcher)
-  - [Exercise 3: Create route tables with required routes](#exercise-3-create-route-tables-with-required-routes)
-    - [Task 1: Create route tables](#task-1-create-route-tables)
-    - [Task 2: Add routes to each route table](#task-2-add-routes-to-each-route-table)
-  - [Exercise 4: Configure n-tier application and validate functionality](#exercise-4-configure-n-tier-application-and-validate-functionality)
-    - [Task 1: Create a load balancer to distribute load between the web servers](#task-1-create-a-load-balancer-to-distribute-load-between-the-web-servers)
-    - [Task 2: Configure the load balancer](#task-2-configure-the-load-balancer)
-  - [Exercise 5: Build the management station](#exercise-5-build-the-management-station)
-    - [Task 1: Build the management VM](#task-1-build-the-management-vm)
-  - [Exercise 6: Virtual Network Peering](#exercise-6-virtual-network-peering)
-    - [Task 1: Configure VNet peering WGVNet1 to WGVNet2 and Vice Versa](#task-1-configure-vnet-peering-wgvnet1-to-wgvnet2-and-vice-versa)
-  - [Exercise 7: Provision and configure Azure firewall solution](#exercise-7-provision-and-configure-azure-firewall-solution)
-    - [Task 1: Provision the Azure firewall](#task-1-provision-the-azure-firewall)
-    - [Task 2: Create Firewall Rules](#task-2-create-firewall-rules)
-    - [Task 3: Associate route tables to subnets](#task-3-associate-route-tables-to-subnets)
-  - [Exercise 8: Configure Site-to-Site connectivity](#exercise-8-configure-site-to-site-connectivity)
-    - [Task 1: Create OnPrem Virtual Network](#task-1-create-onprem-virtual-network)
-    - [Task 2: Configure gateway subnets for on premise Virtual Network](#task-2-configure-gateway-subnets-for-on-premise-virtual-network)
-    - [Task 3: Create the first gateway](#task-3-create-the-first-gateway)
-    - [Task 4: Create the second gateway](#task-4-create-the-second-gateway)
-    - [Task 5: Connect the gateways](#task-5-connect-the-gateways)
-  - [Exercise 9: Configure Network Security Groups and Application Security Groups](#exercise-9-configure-network-security-groups-and-application-security-groups)
-    - [Task 1: Create application security groups](#task-1-create-application-security-groups)
-    - [Task 2: Configure application security groups](#task-2-configure-application-security-groups)
-    - [Task 3: Create network security group](#task-3-create-network-security-group)
-  - [Exercise 10: Validate connectivity from 'on-premises' to Azure](#exercise-10-validate-connectivity-from-on-premises-to-azure)
-    - [Task 1: Create a virtual machine to validate connectivity](#task-1-create-a-virtual-machine-to-validate-connectivity)
-    - [Task 2: Configure routing for simulated 'on-premises' to Azure traffic](#task-2-configure-routing-for-simulated-on-premises-to-azure-traffic)
-  - [Exercise 11: Using Network Watcher to Test and Validate Connectivity](#exercise-11-using-network-watcher-to-test-and-validate-connectivity)
-    - [Task 1: Configuring the Storage Account for the NSG Flow Logs](#task-1-configuring-the-storage-account-for-the-nsg-flow-logs)
-    - [Task 2: Configuring Diagnostic Logs](#task-2-configuring-diagnostic-logs)
-    - [Task 3: Reviewing Network Traffic](#task-3-reviewing-network-traffic)
-    - [Task 4: Network Connection Troubleshooting](#task-4-network-connection-troubleshooting)
-  - [After the hands-on lab](#after-the-hands-on-lab)
+- Enterprise-class networking in Azure hands-on lab step-by-step
+  - Abstract and learning objectives](#abstract-and-learning-objectives
+  - Overview
+  - Solution architecture
+  - Requirements
+  - Help references
+  - Exercise 1: Create a Virtual Network and provision subnets
+    - Task 1: Create a Virtual Network
+    - Task 2: Configure subnets
+  - Exercise 2: Create a Network Monitoring Solution
+    - Task 1: Create a Log Analytics Workspace
+    - Task 2: Configure Network Watcher
+  - Exercise 3: Create route tables with required routes
+    - Task 1: Create route tables
+    - Task 2: Add routes to each route table
+  - Exercise 4: Configure n-tier application and validate functionality
+    - Task 1: Create a load balancer to distribute load between the web servers
+    - Task 2: Configure the load balancer
+  - Exercise 5: Build the management station
+    - Task 1: Build the management VM
+  - Exercise 6: Virtual Network Peering
+    - Task 1: Configure VNet peering WGVNet1 to WGVNet2 and Vice Versa
+  - Exercise 7: Provision and configure Azure firewall solution
+    - Task 1: Provision the Azure firewall](#task-1-provision-the-azure-firewall
+    - Task 2: Create Firewall Rules
+    - Task 3: Associate route tables to subnets](#task-3-associate-route-tables-to-subnets)
+  - Exercise 8: Configure Site-to-Site connectivity
+    - Task 1: Create OnPrem Virtual Network
+    - Task 2: Configure gateway subnets for on premise Virtual Network
+    - Task 3: Create the first gateway
+    - Task 4: Create the second gateway
+    - Task 5: Connect the gateways
+  - Exercise 9: Configure Network Security Groups and Application Security Groups
+    - Task 1: Create application security groups
+    - Task 2: Configure application security groups
+    - Task 3: Create network security group
+  - Exercise 10: Validate connectivity from 'on-premises' to Azure
+    - Task 1: Create a virtual machine to validate connectivity
+    - Task 2: Configure routing for simulated 'on-premises' to Azure traffic
+  - Exercise 11: Using Network Watcher to Test and Validate Connectivity
+    - Task 1: Configuring the Storage Account for the NSG Flow Logs](#task-1-configuring-the-storage-account-for-the-nsg-flow-logs)
+    - Task 2: Configuring Diagnostic Logs
+    - Task 3: Reviewing Network Traffic
+    - Task 4: Network Connection Troubleshooting
 
 <!-- /TOC -->
 
@@ -1312,11 +1311,3 @@ In this exercise, you will collect the flow log and perform connectivity from yo
 4. Once the check is complete the connection troubleshoot feature will display a grid view on the name, IP Address Status and Next hop as seen in the following screenshot. 
 
      ![Network Watcher Connection Troubleshoot Blade.](images/Hands-onlabstep-by-step-Enterprise-classnetworkinginAzureimages/media/image199.png "Connection Troubleshoot")
-
-## After the hands-on lab
-
-Duration: 10 minutes
-
-After you have successfully completed the Enterprise-class networking in Azure hands-on lab step-by-step, you will want to delete the Resource Groups. This will free up your subscription from future charges.
-
-You should follow all steps provided *after* attending the Hands-on lab.
