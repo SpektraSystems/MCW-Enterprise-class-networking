@@ -45,3 +45,55 @@ You must have a working Azure subscription to carry out this hands-on lab step-b
 | Implementing a DMZ between Azure and your on-premises data center    |  <https://azure.microsoft.com/en-us/documentation/articles/guidance-iaas-ra-secure-vnet-hybrid/>  |
 | What is Azure Firewall?    |  <https://docs.microsoft.com/en-us/azure/firewall/overview/>  |
 | Security groups    |  <https://docs.microsoft.com/en-us/azure/virtual-network/security-overview/>  |
+
+**Contents**
+
+<!-- TOC -->
+
+- Enterprise-class networking in Azure hands-on lab step-by-step
+  - Abstract and learning objectives](#abstract-and-learning-objectives
+  - Overview
+  - Solution architecture
+  - Requirements
+  - Help references
+  - Exercise 1: Create a Virtual Network and provision subnets
+    - Task 1: Create a Virtual Network
+    - Task 2: Configure subnets
+  - Exercise 2: Create a Network Monitoring Solution
+    - Task 1: Create a Log Analytics Workspace
+    - Task 2: Configure Network Watcher
+  - Exercise 3: Create route tables with required routes
+    - Task 1: Create route tables
+    - Task 2: Add routes to each route table
+  - Exercise 4: Configure n-tier application and validate functionality
+    - Task 1: Create a load balancer to distribute load between the web servers
+    - Task 2: Configure the load balancer
+  - Exercise 5: Build the management station
+    - Task 1: Build the management VM
+  - Exercise 6: Virtual Network Peering
+    - Task 1: Configure VNet peering WGVNet1 to WGVNet2 and Vice Versa
+  - Exercise 7: Provision and configure Azure firewall solution
+    - Task 1: Provision the Azure firewall](#task-1-provision-the-azure-firewall
+    - Task 2: Create Firewall Rules
+    - Task 3: Associate route tables to subnets](#task-3-associate-route-tables-to-subnets)
+  - Exercise 8: Configure Site-to-Site connectivity
+    - Task 1: Create OnPrem Virtual Network
+    - Task 2: Configure gateway subnets for on premise Virtual Network
+    - Task 3: Create the first gateway
+    - Task 4: Create the second gateway
+    - Task 5: Connect the gateways
+  - Exercise 9: Configure Network Security Groups and Application Security Groups
+    - Task 1: Create application security groups
+    - Task 2: Configure application security groups
+    - Task 3: Create network security group
+  - Exercise 10: Validate connectivity from 'on-premises' to Azure
+    - Task 1: Create a virtual machine to validate connectivity
+    - Task 2: Configure routing for simulated 'on-premises' to Azure traffic
+  - Exercise 11: Using Network Watcher to Test and Validate Connectivity
+    - Task 1: Configuring the Storage Account for the NSG Flow Logs](#task-1-configuring-the-storage-account-for-the-nsg-flow-logs)
+    - Task 2: Configuring Diagnostic Logs
+    - Task 3: Reviewing Network Traffic
+    - Task 4: Network Connection Troubleshooting
+
+<!-- /TOC -->
+
