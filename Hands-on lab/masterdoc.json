@@ -50,6 +50,10 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/MCW-Enterprise-class-networking/master/Hands-on%20lab/11.md",
         "Order": 12
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/SpektraSystems/MCW-Enterprise-class-networking/master/Hands-on%20lab/lab-completed.md",
+        "Order": 13
       }
     ]
   }
